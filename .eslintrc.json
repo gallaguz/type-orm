@@ -1,0 +1,35 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "google",
+        "eslint-config-prettier",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": "error",
+        "new-cap": "off",
+        "require-jsdoc": "off"
+//        "no-shadow": "warn",
+//        "@typescript-eslint/explicit-member-accessibility": "off",
+//        "@typescript-eslint/explicit-function-return-type": "off",
+//        "@typescript-eslint/indent": "off",
+//        "@typescript-eslint/no-explicit-any": "off",
+//        "@typescript-eslint/no-non-null-assertion": "off",
+//        "@typescript-eslint/camelcase": "off",
+//        "@typescript-eslint/array-type": "off",
+//        "@typescript-eslint/no-object-literal-type-assertion": "off"
+    }
+}
+

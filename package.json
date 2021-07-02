@@ -1,0 +1,48 @@
+{
+   "name": "type-orm",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node src/index.ts",
+      "typeorm": "ts-node ./node_modules/typeorm/cli.js",
+      "build": "tsc",
+      "lint": "eslint src/**/*.ts",
+      "format": "eslint src/**/*.ts --fix"
+   },
+   "husky": {
+      "hooks": {
+         "pre-commit": "npm lint"
+      }
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/express": "^4.17.12",
+      "@types/node": "^8.0.29",
+      "@typescript-eslint/eslint-plugin": "^4.28.1",
+      "@typescript-eslint/parser": "^4.28.1",
+      "eslint": "^7.29.0",
+      "eslint-config-google": "^0.14.0",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-config-standard": "^16.0.3",
+      "eslint-plugin-import": "^2.23.4",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^3.4.0",
+      "eslint-plugin-promise": "^5.1.0",
+      "eslint-plugin-standard": "^5.0.0",
+      "husky": "^7.0.0",
+      "prettier": "2.3.2",
+      "ts-node": "^10.0.0",
+      "typescript": "^4.3.5"
+   },
+   "dependencies": {
+      "express": "^4.17.1",
+      "mysql": "^2.14.1",
+      "pg": "^8.6.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.34"
+   }
+}

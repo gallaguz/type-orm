@@ -1,0 +1,23 @@
+sudo npm i -g typeorm
+typeorm init
+npm install -D
+    typescript@latest
+    ts-node@latest
+    @types/express
+    eslint
+    prettier
+    husky
+    eslint-config-standard
+    eslint-config-prettier
+    eslint-plugin-import
+    eslint-plugin-node
+    eslint-plugin-prettier
+    eslint-plugin-promise
+    eslint-plugin-standard
+
+npx eslint --init
+npm i pg express
+
+tsconfig.json
+...
+"esModuleInterop": true
