@@ -4,6 +4,8 @@ npm install -D
     typescript@latest
     ts-node@latest
     @types/express
+    nodemon
+    @types/uuid
     eslint
     prettier
     husky
@@ -16,7 +18,7 @@ npm install -D
     eslint-plugin-standard
 
 npx eslint --init
-npm i pg express
+npm i pg express uuid
 
 tsconfig.json
 ...

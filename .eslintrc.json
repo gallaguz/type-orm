@@ -18,7 +18,17 @@
         "prettier"
     ],
     "rules": {
-        "prettier/prettier": "error",
+        "prettier/prettier": [
+            "error",
+            {
+                "printWidth": 80,
+                "trailingComma": "es5",
+                "semi": true,
+                "jsxSingleQuote": true,
+                "singleQuote": true,
+                "useTabs": true
+            }
+        ],
         "new-cap": "off",
         "require-jsdoc": "off"
 //        "no-shadow": "warn",
