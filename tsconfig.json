@@ -1,12 +1,15 @@
 {
+
    "compilerOptions": {
       "lib": [
          "es5",
-         "es6"
+         "es6",
+         "esnext.asynciterable"
       ],
       "target": "es5",
       "module": "commonjs",
       "moduleResolution": "node",
+      "rootDir": "./src",
       "outDir": "./build",
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
@@ -14,5 +17,5 @@
       "esModuleInterop": true
    },
    "include": ["src/**/*.ts"],
-   "exclude": ["node_modules"]
+   "exclude": ["node_modules", "mongodb", "mysql", "postgres"]
 }
